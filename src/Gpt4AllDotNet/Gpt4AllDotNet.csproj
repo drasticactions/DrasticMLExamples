@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\external\gpt4all\core\gpt4all.net.Runtime\gpt4all.net.Runtime.targets" />
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sharprompt" />
+    <PackageReference Include="System.CommandLine" />
+    <PackageReference Include="System.CommandLine.DragonFruit" />
+    <ProjectReference
+      Include="..\..\external\gpt4all\gpt4all\gpt4all-bindings\csharp\Gpt4All\Gpt4All.csproj" />
+  </ItemGroup>
+
+</Project>
