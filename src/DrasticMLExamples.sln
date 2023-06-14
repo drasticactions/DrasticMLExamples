@@ -13,6 +13,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gpt4AllDotNet", "Gpt4AllDot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhisperDotNet", "WhisperDotNet\WhisperDotNet.csproj", "{F0A33D84-652B-463B-97BA-753AF8686EC6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhisperDotNet.Common", "WhisperDotNet.Common\WhisperDotNet.Common.csproj", "{1C586D77-CEC9-4072-8C83-89A8750ADF3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhisperDotNet.FFMpeg", "WhisperDotNet.FFMpeg\WhisperDotNet.FFMpeg.csproj", "{ED9521D7-B20F-47D5-B8D3-2A7094E0721E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhisperDotNet.Downloader", "WhisperDotNet.Downloader\WhisperDotNet.Downloader.csproj", "{1711380F-76D4-46C7-AC88-306F0483786F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +44,18 @@ Global
 		{F0A33D84-652B-463B-97BA-753AF8686EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0A33D84-652B-463B-97BA-753AF8686EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0A33D84-652B-463B-97BA-753AF8686EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C586D77-CEC9-4072-8C83-89A8750ADF3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C586D77-CEC9-4072-8C83-89A8750ADF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C586D77-CEC9-4072-8C83-89A8750ADF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C586D77-CEC9-4072-8C83-89A8750ADF3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED9521D7-B20F-47D5-B8D3-2A7094E0721E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9521D7-B20F-47D5-B8D3-2A7094E0721E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9521D7-B20F-47D5-B8D3-2A7094E0721E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9521D7-B20F-47D5-B8D3-2A7094E0721E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1711380F-76D4-46C7-AC88-306F0483786F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1711380F-76D4-46C7-AC88-306F0483786F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1711380F-76D4-46C7-AC88-306F0483786F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1711380F-76D4-46C7-AC88-306F0483786F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{76B18852-4E59-4DAF-9D00-7E06E020A471} = {6C8013B4-7C03-45EF-A5C5-75483424A328}

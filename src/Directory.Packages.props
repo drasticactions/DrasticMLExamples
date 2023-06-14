@@ -4,7 +4,11 @@
     <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
   </PropertyGroup>
   <ItemGroup>
+    <PackageVersion Include="Drastic.Utilities" Version="1.0.10" />
+    <PackageVersion Include="Downloader" Version="3.0.4" />
+    <PackageVersion Include="Xabe.FFmpeg" Version="5.2.6" />
     <PackageVersion Include="Sharprompt" Version="2.4.5" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
     <PackageVersion Include="StyleCop.Analyzers" Version="1.2.0-beta.435" />
     <PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.0" />
     <PackageVersion Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
