@@ -62,14 +62,14 @@ internal class MainProgram
         return await this.root.InvokeAsync(this.args);
     }
 
-    private async Task Transcribe(string model, string languageCode, List<string> file)
+    private async Task Transcribe(string model, string language, List<string> file)
     {
         model = await this.GetModelPrompt(model);
-        var language = this.GetLanguagePrompt(languageCode);
+        var languageWhisper = this.GetLanguagePrompt(language);
         var files = this.GetFilesPrompt(file).Where(n => File.Exists(n));
         foreach (var f in files)
         {
-            await this.RunModelAsync(model, language, f);
+            await this.RunModelAsync(model, languageWhisper, f);
         }
     }
 
